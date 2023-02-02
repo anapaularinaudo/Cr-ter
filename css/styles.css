@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.navbar {
+    background-color: black;
+    opacity: 60%;
+}
+
+.paginaDeInicio {
+    background-image: url(../img/bandaensayoinstr.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    filter: grayscale(5%);
+}
+
+.navbar-nav .nav-link {
+    color: #DBDBDB;
+}
+
+.logoinicio {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: 450px;
+    object-fit: contain;
+}
+
+.navbar {
+    grid-area: nav;
+}
+
+.centroLogo {
+    grid-area: logo;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.logoinicio {
+    max-width: 100%;
+    height: auto;
+}
+
+.logoinicio:hover {
+    transform: scale(1.1, 1.1);
+    transition: all 1s;
+}
+
+@media (min-width: 600px) {
+    .logoinicio {
+        max-width: 50%;
+    }
+}
+
+
+.descrip {
+    text-align: center;
+    margin-top: 65px;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: black;
+    opacity: 50%;
+    color: beige;
+}
+
+#carouselExampleFade {
+    grid-area: fotos;
+}
+
+.piedepagInicio {
+    color: gray;
+    grid-area: pie;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    height: 60px;
+}
+
+.enlacepie {
+    text-decoration: none;
+    color: grey;
+}
+
+/* FOTOS */
+.seccionFotos {
+    background: black
+}
+
+.carrousel {
+    margin-top: 2%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 10%;
+}
+
+.tituloFotos {
+    background: linear-gradient(to right, #200122, #6f0000);
+    text-transform: uppercase;
+    color: #DBDBDB;
+    opacity: 30%;
+    padding-left: 5%;
+}
+
+/* MUSICA */
+.paginamusica {
+    background-image: url(../img/humonegrod.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    filter: grayscale(80%);
+}
+
+.intromusic {
+    text-align: left;
+    font-size: medium;
+    color: blanchedalmond;
+}
+
+/* videos */
+.videos {
+    padding: 5%;
+    display: inline-block;
+}
+
+.paginavideos {
+    background-image: url(../img/humonegrod.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: auto;
+}
+
+.paginacontacto {
+    background-image: url(../img/bandaensayoinstr.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    filter: grayscale(5%);
+}
+
+form input,
+form textarea {
+    display: block;
+}
