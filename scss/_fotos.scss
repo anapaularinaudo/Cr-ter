@@ -1,0 +1,21 @@
+.carrousel {
+	margin-top: 2%;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-bottom: 10%;
+}
+.tituloFotos {
+	background: linear-gradient(to right, #200122, #6f0000);
+	color: $color1;
+	opacity: 30%;
+	padding-left: 5%;
+	font-family: $font-family;
+	font-weight: bold;
+}
+.seccionFotos {
+	background: black;
+}
+#carouselExampleFade {
+	grid-area: fotos;
+	margin-bottom: 40px;
+}

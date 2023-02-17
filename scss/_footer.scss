@@ -1,0 +1,25 @@
+/*MIXIN*/
+@mixin anclas {
+    text-decoration: none;
+	color: $color4;
+}
+
+
+.piedepagInicio {
+	color: $color3;
+	grid-area: pie;
+	background-color: $background-color1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	padding: 10px;
+	height: 60px;
+}
+.enlacepie {
+	@include anclas;
+}
