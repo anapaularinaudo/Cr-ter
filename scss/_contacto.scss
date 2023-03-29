@@ -1,60 +1,66 @@
 .paginacontacto {
-	background-image: url(../img/bandaensayoinstr.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	width: 100%;
-	height: 100vh;
-	filter: grayscale(5%);
+    background-image: url(../img/bandaensayoinstr.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    filter: grayscale(5%);
 }
+
 form {
-	input {
-		display: block;
-		margin-bottom: 10px;
-		background-color: $background-color2;
-	}
-	textarea {
-		display: block;
-		margin-bottom: 10px;
-		background-color: $background-color2;
-	}
+    input {
+        display: block;
+        margin-bottom: 10px;
+        background-color: $fondocolor2;
+    }
+
+    textarea {
+        display: block;
+        margin-bottom: 10px;
+        background-color: $fondocolor2;
+    }
 }
+
 .contacto {
-	grid-area: contacto;
-	font-family: $font-family;
-	color: $color7;
-	margin-left: 100px;
-	margin-top: 50px;
+    grid-area: contacto;
+    font-family: $fuente2;
+    color: $color3;
+    margin-left: 100px;
+    margin-top: 50px;
 }
+
 .redes {
-	grid-area: redes;
-	text-decoration: none;
-	font-family: $font-family;
-	color: $color7;
-	margin-top: 50px;
+    grid-area: redes;
+    text-decoration: none;
+    font-family: $fuente2;
+    color: $color3;
+    margin-top: 50px;
     font-weight: bolder;
-    
 }
+
 .link {
-	text-decoration: none;
+    text-decoration: none;
     list-style: none;
-	color: $color8;
+    color: $color6;
     font-weight: bolder;
-    background-color: $background-color1;
+    background-color: $fondocolor1;
     display: inline-block;
 }
+
 .logocontacto {
-	grid-area: logo;
-	max-width: 400px;
-	height: auto;
-	display: block;
-	margin: 70px 180px auto 0;
-	object-fit: contain;
+    grid-area: logo;
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin: 70px 180px auto 0;
+    object-fit: contain;
 }
+
 .contactopadre {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	display: grid;
-	grid-template-areas: "contacto contacto redes" "contacto contacto redes" "contacto contacto redes";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: grid;
+    grid-template-areas: "contacto contacto redes" "contacto contacto redes" "contacto contacto redes";
 }

@@ -1,14 +1,19 @@
-.videos {
-	padding: 5%;
-	display: inline-block;
+.paginaVideos {
+    background-image: url(../img/humonegrod.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: auto;
+    font-family: $fuente1;
+    color: $color3;
 }
-.paginavideos {
-	background-image: url(../img/humonegrod.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	width: 100%;
-	height: auto;
-	font-family: $font-family;
-	color: $color7;
+
+.videos {
+    padding: 5%;
+    display: inline-block;
+}
+
+.padreVideo {
+    padding-left: 20px;
 }

@@ -1,40 +1,55 @@
-.intromusic {
-	text-align: left;
-	font-size: medium;
-	color: $color5;
+.paginaMusica {
+    background-image: url(../img/ilusbyn.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: $fuente1;
+    color: $color3;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    filter: grayscale(80%);
+
+    h1 {
+        width: 100%;
+        max-width: 600px;
+        margin: 20px;
+        padding-top: 10px;
+        font-family: $fuente1;
+        color: $color4;
+    }
+
+    p {
+        background-color: $fondocolor1;
+        padding: 10px;
+        width: 100%;
+        max-width: 600px;
+        margin: 10px;
+        font-family: $fuente2;
+        color: $color3;
+    }
+
+    article {
+        width: 100%;
+        max-width: 600px;
+        margin: 10px;
+        font-family: $fuente1;
+        color: $color5;
+        margin-bottom: 20px;
+    }
 }
-.padremusica {
-	text-align: center;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	font-family: $font-family;
-	color: $color6;
-	background-image: url(../img/humonegrod.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	min-height: 100vh;
-	filter: grayscale(80%);
-	h1 {
-		width: 100%;
-		max-width: 600px;
-		margin: 10px;
-		font-family: $font-family;
-		color: $color6;
-	}
-	p {
-		width: 100%;
-		max-width: 600px;
-		margin: 10px;
-		font-family: $font-family;
-		color: $color6;
-	}
-	article {
-		width: 100%;
-		max-width: 600px;
-		margin: 10px;
-		font-family: $font-family;
-		color: $color6;
-	}
+
+.introMusic {
+    text-align: left;
+    font-size: medium;
+    color: $color2;
 }

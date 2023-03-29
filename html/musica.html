@@ -5,11 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CRÁTER - Musica</title>
+    <title>Cráter - Musica</title>
     <meta name="description" content="Escuchá algunos temas de nuestra discografía">
     <meta name="keywords" content="Rock and roll, Rock, Música, Eventos, Banda, Argentina, Córdoba">
     <!-- CSS -->
-    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/style.css">
     <!-- LINK FAVICON -->
     <link rel="shortcut icon" href="../img/logocrater.png" type="image/x-icon">
     <!-- LINK BOOTSTRAP -->
@@ -17,40 +17,40 @@
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 </head>
 
-<body class="paginamusica">
-    <header>
-    <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="../index.html">CRÁTER</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="fotos.html">Fotos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="musica.html">Música</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="videos.html">Videos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contacto.html">Contacto</a>
-                    </li>
-                </ul>
+<body class="Musica">
+    <div id="barraNav">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">Cráter</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../html/fotos.html">Fotos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../html/musica.html">Música</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../html/videos.html">Videos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../html/contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
-    </header>
-    
-    <main class="padremusica">
+        </nav>
+    </div>
+
+    <section class="paginaMusica">
         <h1>
-            MUSICA
+            MÚSICA
         </h1>
-        <p class="intromusic">Aquí encontrarás algunas de nuestras canciones
+        <p class="introMusic">Aquí encontrarás algunas de nuestras canciones
             más recientes disponibles para escuchar. Proximamente disponibles en más plataformas.</p>
 
         <article class="circus">
@@ -60,7 +60,7 @@
                 <p>Tu navegador no soporta la etiqueta de audio.</p>
             </audio>
         </article>
-        <article class="masdeunarazon">
+        <article class="masDeUnaRazon">
             <h2>Más de una razón</h2>
             <audio controls>
                 <source src="../musica/masdeunarazon.mpeg" type="audio/mpeg">
@@ -70,16 +70,11 @@
         <article class="prisioneros">
             <h2>Prisioneros del azar</h2>
             <audio controls>
-                <source src="../musica/prisionerosdelazar.mpeg" type="audio/mpeg">
+                <source src="../musica/masdeunarazon.mpeg" type="audio/mpeg">
                 <p>Tu navegador no soporta la etiqueta de audio.</p>
             </audio>
         </article>
-    </main>
-
-    <footer class="piedepagInicio">
-        <p>Todos los derechos reservados</p>
-        <a class="enlacepie" href="https://www.instagram.com/craterrnr/" target="_blank">instagram.com/craterrnr</a>
-    </footer>
+    </section>
 
 
 
@@ -87,6 +82,5 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
-</body>
 
-</html>
+</body>

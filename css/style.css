@@ -1,0 +1,316 @@
+@import "https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Phudu:wght@300&display=swap";
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+#barraNav {
+  font-family: "Bebas Neue", cursive !important;
+}
+
+#seccionLogo {
+  background-image: url(../img/bandaensayoinstr.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  filter: grayscale(5%);
+}
+
+.centroLogo img {
+  width: 600px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+.centroLogo:hover {
+  transform: scale(1.1, 1.1);
+  transition: all 1s;
+}
+
+#seccionDescripcion {
+  background: linear-gradient(to top, black, #1e130c);
+  height: auto;
+  padding: 50px;
+}
+
+.descripcion {
+  max-width: 800px;
+  margin: 0 auto;
+  color: grey;
+  text-align: center;
+  font-size: 1.2rem;
+  font-family: "Phudu", cursive;
+  padding-bottom: 50px;
+}
+
+.pieDePag {
+  background-color: black;
+  color: beige;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 10vh;
+  font-family: "Bebas Neue", cursive;
+  text-align: center;
+}
+
+.enlacePie {
+  color: beige;
+  padding-bottom: 5rem;
+}
+
+.pie {
+  margin-top: 3px;
+}
+
+.paginaFotos {
+  background-color: black;
+}
+
+.tituloFotos {
+  font-family: "Bebas Neue", cursive;
+  color: grey;
+  padding-left: 5%;
+}
+
+.carrousel {
+  margin-top: 2%;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 10%;
+}
+
+#carouselExampleFade {
+  grid-area: fotos;
+  margin-bottom: 40px;
+}
+
+.paginaMusica {
+  background-image: url(../img/ilusbyn.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Bebas Neue", cursive;
+  color: darkgrey;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  filter: grayscale(80%);
+}
+.paginaMusica h1 {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px;
+  padding-top: 10px;
+  font-family: "Bebas Neue", cursive;
+  color: black;
+}
+.paginaMusica p {
+  background-color: black;
+  padding: 10px;
+  width: 100%;
+  max-width: 600px;
+  margin: 10px;
+  font-family: "Phudu", cursive;
+  color: darkgrey;
+}
+.paginaMusica article {
+  width: 100%;
+  max-width: 600px;
+  margin: 10px;
+  font-family: "Bebas Neue", cursive;
+  color: red;
+  margin-bottom: 20px;
+}
+
+.introMusic {
+  text-align: left;
+  font-size: medium;
+  color: beige;
+}
+
+.paginaVideos {
+  background-image: url(../img/humonegrod.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: auto;
+  font-family: "Bebas Neue", cursive;
+  color: darkgrey;
+}
+
+.videos {
+  padding: 5%;
+  display: inline-block;
+}
+
+.padreVideo {
+  padding-left: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  #seccionLogo {
+    height: 50vh;
+  }
+  .centroLogo img {
+    width: 200px;
+  }
+  #seccionDescripcion {
+    padding: 20px 0;
+  }
+  .descripcion {
+    font-size: 1rem;
+  }
+  footer {
+    height: 30px;
+  }
+  footer p {
+    font-size: 0.6rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .padreVideo {
+    padding: 10px;
+  }
+  .videosTitulo {
+    font-size: 1.5em;
+    font-weight: bolder;
+    background: linear-gradient(to right, #200122, #6f0000);
+    text-transform: uppercase;
+    color: #DBDBDB;
+    opacity: 30%;
+    padding-left: 5%;
+    font-family: "Bebas Neue", cursive;
+    font-weight: bolder;
+  }
+  .videosDescrip {
+    font-size: 1em;
+  }
+  .videos ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+  }
+  .videos li {
+    width: 45%;
+  }
+  iframe {
+    width: 100%;
+    height: auto;
+  }
+}
+@media screen and (max-width: 600px) {
+  .paginacontacto {
+    background-size: cover;
+    background-color: black;
+  }
+}
+@media (max-width: 600px) {
+  .padremusica h1 {
+    margin: 10px 0;
+  }
+  .padremusica p {
+    margin: 10px 0;
+  }
+  .padremusica article {
+    margin: 10px 0;
+  }
+  .contactopadre {
+    display: grid;
+    grid-template-areas: "contacto" "contacto" "redes";
+  }
+  .redes {
+    margin-left: 80px;
+    margin-bottom: 30px;
+    justify-content: center;
+  }
+  .logocontacto {
+    grid-area: logo;
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin: 70px 180px auto 0;
+    object-fit: contain;
+  }
+}
+.paginacontacto {
+  background-image: url(../img/bandaensayoinstr.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  filter: grayscale(5%);
+}
+
+form input {
+  display: block;
+  margin-bottom: 10px;
+  background-color: darkgrey;
+}
+form textarea {
+  display: block;
+  margin-bottom: 10px;
+  background-color: darkgrey;
+}
+
+.contacto {
+  grid-area: contacto;
+  font-family: "Phudu", cursive;
+  color: darkgrey;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+.redes {
+  grid-area: redes;
+  text-decoration: none;
+  font-family: "Phudu", cursive;
+  color: darkgrey;
+  margin-top: 50px;
+  font-weight: bolder;
+}
+
+.link {
+  text-decoration: none;
+  list-style: none;
+  color: darkred;
+  font-weight: bolder;
+  background-color: black;
+  display: inline-block;
+}
+
+.logocontacto {
+  grid-area: logo;
+  max-width: 400px;
+  height: auto;
+  display: block;
+  margin: 70px 180px auto 0;
+  object-fit: contain;
+}
+
+.contactopadre {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  display: grid;
+  grid-template-areas: "contacto contacto redes" "contacto contacto redes" "contacto contacto redes";
+}
+
+/*# sourceMappingURL=style.css.map */
